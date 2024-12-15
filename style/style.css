@@ -69,7 +69,7 @@ header {
 
 /* Home Section with background image */
 .home-section {
-    background-image: url('/Images/background.jpg');
+    background-color:antiquewhite;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -78,7 +78,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color:var(--second-color);
     text-align: center;
     z-index: 1;
 }
@@ -92,17 +92,19 @@ header {
 .home-items h1 {
     font-size: 3.5vw;
     margin-top: 3em;
+    color: var(--second-color);
 }
 
 .home-items h2 {
     font-size: 1vw;
     margin-bottom: 0.2em;
-    color: white;
+    color: var(--second-color);
 }
 
 .home-items h3 {
     font-size: 2.5vw;
     margin-bottom: 0.5em;
+    color: var(--second-color);
 }
 
 /* Button styling */
