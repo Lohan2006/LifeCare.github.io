@@ -71,7 +71,7 @@ header {
 .home-section {
     width: 100vw;
     height: 100vh;
-    background-image: url(/Images/1656585949912.jpg);
+    background-image: url(/Images/background.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -97,6 +97,7 @@ header {
 .home-items h2 {
     font-size: 1vw;
     margin-bottom: 0.2em;
+    color: white;
 }
 
 .home-items h3 {
