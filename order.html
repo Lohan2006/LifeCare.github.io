@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+      <nav class="navbar" aria-label="Main Navigation">
+          <div class="logo"><a href="index.html">Life<span>Care</span></a></div>
+          <ul class="links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about us.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="Doctors.html">Doctors</a></li>
+              <li><a href="Consultaiton.html">Reservation</a></li>
+              <li><a href="Pharmacy.html">Medicine</a></li>
+              <li><a href="FAQ.html">FAQ</a></li>
+              <li><a href="medicines.html">Pharmacy</a></li>
+              <li><a href="order.html">Order</a></li>
+          </ul>
+          <!-- Hamburger menu icon for small screens -->
+          <img src="./Images/menu-icon-6.png" alt="menu_icon" class="menu_btn">
+      </nav>
+  </header>
+
+<main>
+    <h1>Order Confirmation</h1>
+    <!-- Contact Form -->
+    <section id="contact-form-section">
+        <h2>Order Details</h2>
+        <form id="contact-form">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  
+          <!-- Email Input -->
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  
+          <!-- Address Input -->
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+  
+          <fieldset>
+            <legend>Payment Method:</legend>
+            <label for="credit-card">Credit Card</label>
+            <input type="radio" id="credit-card" name="payment" value="credit-card">
+            
+            <label for="paypal">PayPal</label>
+            <input type="radio" id="paypal" name="payment" value="paypal">
+            
+            <label for="bank-transfer">Bank Transfer</label>
+            <input type="radio" id="bank-transfer" name="payment" value="bank-transfer">
+        </fieldset><br>
+
+        <table id="cart-table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Cart items will appear here -->
+          </tbody>
+        </table>
+        <h3>Total Price: $<span id="total-price">0.00</span></h3>
+            <button type="submit" id="sbmitbtn">Submit</button>
+        </form>
+    </section>
+
+
+</main>
+
+<script src="scripts/script.js"></script>
+
+<!-- Footer Section -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>Life<span>Care</span></h2>
+    </div>
+    <div class="footer-content">
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p>Address: 123 Healthcare Street, City, Country</p>
+        <p>Email: <a href="mailto:info@lifecare.com">info@lifecare.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+      </div>
+
+      <div class="footer-section quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="Doctors.html">Doctors</a></li>
+          <li><a href="Consultaiton.html">Reservation</a></li>
+          <li><a href="Pharmacy.html">Pharmacy</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+
+        </ul>
+      </div>
+
+      <div class="footer-section social-media">
+        <h3>Follow Us</h3>
+        <ul class="social-links">
+          <li><a href="#"><img src="./Images/pngwing.com.png" alt="Facebook"></a></li>
+          <li><a href="#"><img src="./Images/3938028.png" alt="Twitter"></a></li>
+          <li><a href="#"><img src="./Images/Instagram_icon.png" alt="Instagram"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-note">&copy; 2024 LifeCare. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
